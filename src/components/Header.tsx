@@ -8,7 +8,7 @@ export function Header() {
               <img
                 alt="Sovereign Web Foundations"
                 className="h-full w-auto object-contain"
-                src="/images/stoa-banner-logo.svg"
+                src="/images/sovereign-web-foundations-banner-logo.png"
               />
             </div>
           </a>

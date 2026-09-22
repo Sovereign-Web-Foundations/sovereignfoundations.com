@@ -32,10 +32,10 @@ function Home() {
                 </div>
               </div>
               <div className="lg:col-span-5 relative mt-space-xl lg:mt-0">
-                <div className="relative w-full rounded-xl bg-surface-container-lowest p-space-lg shadow-xl shadow-primary/5">
+                <div className="relative w-full rounded-xl p-space-lg">
                   <img
                     className="w-full h-full object-cover"
-                    src="/images/stoa-word-mark-logo.png"
+                    src="/images/sovereign-web-foundations-logo.svg"
                   />
                 </div>
               </div>
