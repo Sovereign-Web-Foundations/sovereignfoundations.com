@@ -1,9 +1,11 @@
+import { Link } from '@tanstack/react-router'
+
 export function Header() {
   return (
     <>
       <header className="fixed top-0 w-full z-50 bg-white  text-[#033183] shadow-sm border-b-2 border-[#033183]">
         <div className="max-w-7xl mx-auto px-6 lg:px-8 h-20 flex items-center justify-between">
-          <a className="flex items-center" href="#">
+          <Link className="flex items-center" to="/">
             <div className="h-18 px-4 py-1 rounded-md flex items-center">
               <img
                 alt="Sovereign Web Foundations"
@@ -11,15 +13,15 @@ export function Header() {
                 src="/images/sovereign-web-foundations-banner-logo.png"
               />
             </div>
-          </a>
+          </Link>
           <div className="flex items-center gap-8">
             <nav className="hidden md:flex items-center gap-8">
-              <a
+              <Link
                 className="hover:text-[#033183]/80 font-medium text-sm transition-colors duration-150"
-                href="#"
+                to="/philosophy"
               >
                 Philosophy
-              </a>
+              </Link>
               <a
                 className="hover:text-[#033183]/80 font-medium text-sm transition-colors duration-150"
                 href="#"

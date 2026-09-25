@@ -1,4 +1,4 @@
-import { createFileRoute } from '@tanstack/react-router'
+import { createFileRoute, Link } from '@tanstack/react-router'
 
 export const Route = createFileRoute('/')({ component: Home })
 
@@ -14,8 +14,8 @@ function Home() {
                   The web should belong to the people.
                 </h1>
                 <p className="font-body-lg text-body-lg text-secondary mb-space-xl max-w-2xl leading-relaxed">
-                  Sovereign Web Foundations is a free, open, and independent
-                  alternative to the subscriptions and lock-in that most small
+                  Sovereign Web Foundations are free, open, and independent
+                  alternatives to the subscriptions and lock-in that most small
                   business websites are quietly built on. No product to buy. No
                   account required to start. Just the philosophy, the tools, and
                   the honest assessment you need to build something you actually
@@ -158,13 +158,13 @@ function Home() {
                   Our three public commitments come from our philosophy that
                   ownership should be the default assumption of the web.
                 </p>
-                <a
+                <Link
                   className="inline-flex items-center gap-space-xs text-primary font-title-sm text-title-sm hover:text-primary-container font-semibold transition-colors group"
                   data-path="philosophy"
-                  href="#"
+                  to="/philosophy"
                 >
-                  <span>Read the Freedom Principle →</span>
-                </a>
+                  <span>Read the Sovereign Philosophy →</span>
+                </Link>
               </div>
               <div className="lg:col-span-7 flex flex-col gap-space-md">
                 <div className="p-space-lg rounded-xl bg-surface-container-lowest flex items-center gap-space-md shadow-sm">
@@ -272,7 +272,7 @@ function Home() {
                     Sovereign Pillars
                   </h4>
                   <p className="font-body-sm text-body-sm text-secondary">
-                    Decentralized identity &amp; records.
+                    Free modular extension alternatives for popular software.
                   </p>
                 </div>
                 <div className="mt-space-lg pt-space-sm">
@@ -292,7 +292,7 @@ function Home() {
                     Sovereign Capstone
                   </h4>
                   <p className="font-body-sm text-body-sm text-secondary">
-                    Autonomous deployment fabric.
+                    Client website project hand-off & offboarding software.
                   </p>
                 </div>
                 <div className="mt-space-lg pt-space-sm">
