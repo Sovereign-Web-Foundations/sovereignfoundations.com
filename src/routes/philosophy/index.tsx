@@ -151,8 +151,8 @@ function RouteComponent() {
                             </span>
                           </div>
                           <p className="font-body-md text-body-md text-[#566079] leading-normal">
-                            Open for developers to build with, closed to anyone
-                            who'd re-paywall the finished product.
+                            Open for developers to build with, and impossible to
+                            quietly turn into a closed, proprietary competitor.
                           </p>
                         </div>
                       </div>
